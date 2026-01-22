@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.341" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-22T08:59:16.856615200Z">
+<testcase classname="" name="" time="0.037">
+<system-out><![CDATA[
+Given user is on facebook register page.....................................passed
+When user enter "Shrikant" and "Khemkar"....................................passed
+And user enter valid 9960594 and "shri@yopmail.com".........................passed
+And user enter 15 and "Dec" and 2002........................................passed
+Then user click on Register button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
