@@ -23,3 +23,12 @@ validate mailing page functionality
     And employee write state name "Maharashtra"
     And employee write 411027
     Then employee click on mail button
+
+  @Smoke
+  Scenario:
+validate the login functionality
+
+    Given staff is on login page
+    When staff enter the username and password
+    And staff click on login button
+    Then staff is on home page

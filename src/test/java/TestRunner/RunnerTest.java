@@ -7,13 +7,13 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = "D:\\Wishtree\\UpSkill\\Eclipse_Projects\\CUCUMBER\\Parameterization_Cucumber\\src\\test\\resources\\AllFeature\\test.feature"
-		,	extraGlue="stepdefinations"
+		,	glue="stepdefinations"
 		,	dryRun = false
 		,	plugin = {
-				"html:Reports/test1.html"
-				,	"json:Reports/test1.json"
-				,	"junit:Reports/test1.xml"
-				,	"pretty:Reports/test1.txt"
+				"html:Reports/test2.html"
+				,	"json:Reports/test2.json"
+				,	"junit:Reports/test2.xml"
+				,	"pretty:Reports/test2.txt"
 		}
 		
 		)

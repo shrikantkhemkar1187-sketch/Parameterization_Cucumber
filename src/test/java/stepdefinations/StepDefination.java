@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 public class StepDefination {
 
 		@Given("user is on facebook register page")
-		public void user_is_on_facebook_register_page() { System.out.println("User is on facebook register page.");
+		public void user_is_on_facebook_register_page() { System.out.println("Register page.");
 		}
 
 		@When("user enter {string} and {string}")
@@ -60,5 +60,21 @@ public class StepDefination {
 
 		@Then("employee click on mail button")
 		public void employee_click_on_mail_button() {System.out.println("emp click on mail button.");
+		}
+		
+		@Given("staff is on login page")
+		public void staff_is_on_login_page() {  System.out.println("Login page.");
+		}
+
+		@When("staff enter the username and password")
+		public void staff_enter_the_username_and_password() {System.out.println("staff enter username and password");
+		}
+
+		@When("staff click on login button")
+		public void staff_click_on_login_button() {System.out.println("Staff click on login button");
+		}
+
+		@Then("staff is on home page")
+		public void staff_is_on_home_page() {System.out.println("Staff is on Home page.");
 		}
 }

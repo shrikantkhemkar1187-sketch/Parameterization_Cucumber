@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.412" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-22T11:46:24.649369200Z">
+<testcase classname="" name="" time="0.051">
+<system-out><![CDATA[
+Given user is on facebook register page.....................................passed
+When user enter "Shrikant" and "Khemkar"....................................passed
+And user enter valid 9960594 and "shri@yopmail.com".........................passed
+And user enter 15 and "Dec" and 2002........................................passed
+Then user click on Register button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="" time="0.022">
+<system-out><![CDATA[
+Given employee is on address page...........................................passed
+When employee write "Shrikant" and "Khemkar"................................passed
+And employee write valid 8888898 and "shrikant@gmail.com"...................passed
+And employee write 25 and "June" and 1877...................................passed
+And employee write city name "Pune".........................................passed
+And employee write state name "Maharashtra".................................passed
+And employee write 411027...................................................passed
+Then employee click on mail button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
